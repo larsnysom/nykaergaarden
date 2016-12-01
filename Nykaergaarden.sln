@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{9467D8CF-DBC3-4427-88BF-5A6352B6596E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CookbookBoundedContext", "CookbookBoundedContext", "{BA1C3890-2935-4064-A2FA-762AE1CEF09C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CalendarBoundedContext", "CalendarBoundedContext", "{7FA65DB5-4C36-44D9-B3E4-C2D6341A0ADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nykaergaarden.Web", "Nykaergaarden.Web\Nykaergaarden.Web\Nykaergaarden.Web.csproj", "{BF3EF562-5C37-4746-8BDB-9B7FC2ED0A47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nykaergaarden.Cookbook.ServiceInterface", "Cookbook.ServiceInterface\Nykaergaarden.Cookbook.ServiceInterface.csproj", "{75D805A7-1ECF-459E-A478-1E3B6E241E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nykaergaarden.Cookbook.ServiceModel", "Cookbook.ServiceModel\Nykaergaarden.Cookbook.ServiceModel.csproj", "{6D9D4B08-D3CB-4BA6-9AAA-7613E7DB1C88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nykaergaarden.Cookbook.DomainModel", "Cookbook.Data\Nykaergaarden.Cookbook.DomainModel.csproj", "{0433B79F-D89E-4A37-A39E-D0021B332DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nykaergaarden.QueryInterface", "Nykaergaarden.QueryInterface\Nykaergaarden.QueryInterface.csproj", "{8C8EB721-ED0C-435D-9132-1989D5F0FB7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nykaergaarden.QueryModel", "Nykaergaarden.QUeryModel\Nykaergaarden.QueryModel.csproj", "{BB237E96-099B-47C5-8DA2-1A1DC0FD3616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar.ServiceInterface", "Calendar.ServiceInterface\Calendar.ServiceInterface.csproj", "{48905B7B-5432-4E1D-B26F-98EA05C72121}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar.ServiceModel", "Calendar.ServiceModel\Calendar.ServiceModel.csproj", "{69D04A4B-8EBC-4EDE-B137-A6F17197F460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nykaergaarden.SharedKernel.Infrastructure.Services", "SharedKernel.Infrastructure.Services\Nykaergaarden.SharedKernel.Infrastructure.Services.csproj", "{B395070F-E0F1-403E-BD56-F1C21D50C954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nykaergaarden.SharedKernel.Infrastructure.Shared", "SharedKernel.Infrastructure.Shared\Nykaergaarden.SharedKernel.Infrastructure.Shared.csproj", "{11047836-4312-46D3-B135-6E819AA1F50E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Audit", "Audit\Audit.csproj", "{6E265A90-FC5E-4E1B-A836-884F8CF7B475}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF3EF562-5C37-4746-8BDB-9B7FC2ED0A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3EF562-5C37-4746-8BDB-9B7FC2ED0A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3EF562-5C37-4746-8BDB-9B7FC2ED0A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3EF562-5C37-4746-8BDB-9B7FC2ED0A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75D805A7-1ECF-459E-A478-1E3B6E241E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D805A7-1ECF-459E-A478-1E3B6E241E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75D805A7-1ECF-459E-A478-1E3B6E241E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75D805A7-1ECF-459E-A478-1E3B6E241E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9D4B08-D3CB-4BA6-9AAA-7613E7DB1C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9D4B08-D3CB-4BA6-9AAA-7613E7DB1C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9D4B08-D3CB-4BA6-9AAA-7613E7DB1C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9D4B08-D3CB-4BA6-9AAA-7613E7DB1C88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0433B79F-D89E-4A37-A39E-D0021B332DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0433B79F-D89E-4A37-A39E-D0021B332DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0433B79F-D89E-4A37-A39E-D0021B332DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0433B79F-D89E-4A37-A39E-D0021B332DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8EB721-ED0C-435D-9132-1989D5F0FB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8EB721-ED0C-435D-9132-1989D5F0FB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8EB721-ED0C-435D-9132-1989D5F0FB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8EB721-ED0C-435D-9132-1989D5F0FB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB237E96-099B-47C5-8DA2-1A1DC0FD3616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB237E96-099B-47C5-8DA2-1A1DC0FD3616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB237E96-099B-47C5-8DA2-1A1DC0FD3616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB237E96-099B-47C5-8DA2-1A1DC0FD3616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48905B7B-5432-4E1D-B26F-98EA05C72121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48905B7B-5432-4E1D-B26F-98EA05C72121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48905B7B-5432-4E1D-B26F-98EA05C72121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48905B7B-5432-4E1D-B26F-98EA05C72121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D04A4B-8EBC-4EDE-B137-A6F17197F460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D04A4B-8EBC-4EDE-B137-A6F17197F460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D04A4B-8EBC-4EDE-B137-A6F17197F460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D04A4B-8EBC-4EDE-B137-A6F17197F460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B395070F-E0F1-403E-BD56-F1C21D50C954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B395070F-E0F1-403E-BD56-F1C21D50C954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B395070F-E0F1-403E-BD56-F1C21D50C954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B395070F-E0F1-403E-BD56-F1C21D50C954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11047836-4312-46D3-B135-6E819AA1F50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11047836-4312-46D3-B135-6E819AA1F50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11047836-4312-46D3-B135-6E819AA1F50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11047836-4312-46D3-B135-6E819AA1F50E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E265A90-FC5E-4E1B-A836-884F8CF7B475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E265A90-FC5E-4E1B-A836-884F8CF7B475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E265A90-FC5E-4E1B-A836-884F8CF7B475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E265A90-FC5E-4E1B-A836-884F8CF7B475}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75D805A7-1ECF-459E-A478-1E3B6E241E34} = {BA1C3890-2935-4064-A2FA-762AE1CEF09C}
+		{6D9D4B08-D3CB-4BA6-9AAA-7613E7DB1C88} = {BA1C3890-2935-4064-A2FA-762AE1CEF09C}
+		{0433B79F-D89E-4A37-A39E-D0021B332DEF} = {BA1C3890-2935-4064-A2FA-762AE1CEF09C}
+		{48905B7B-5432-4E1D-B26F-98EA05C72121} = {7FA65DB5-4C36-44D9-B3E4-C2D6341A0ADB}
+		{69D04A4B-8EBC-4EDE-B137-A6F17197F460} = {7FA65DB5-4C36-44D9-B3E4-C2D6341A0ADB}
+		{B395070F-E0F1-403E-BD56-F1C21D50C954} = {9467D8CF-DBC3-4427-88BF-5A6352B6596E}
+		{11047836-4312-46D3-B135-6E819AA1F50E} = {9467D8CF-DBC3-4427-88BF-5A6352B6596E}
+	EndGlobalSection
+EndGlobal
