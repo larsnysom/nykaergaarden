@@ -7,8 +7,8 @@
     <ProjectGuid>{6D9D4B08-D3CB-4BA6-9AAA-7613E7DB1C88}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Nykaergaarden.Cookbook.ServiceModel</RootNamespace>
-    <AssemblyName>Nykaergaarden.Cookbook.ServiceModel</AssemblyName>
+    <RootNamespace>Nykaergaarden.Cookbook.Commands</RootNamespace>
+    <AssemblyName>Nykaergaarden.Cookbook.Commands</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

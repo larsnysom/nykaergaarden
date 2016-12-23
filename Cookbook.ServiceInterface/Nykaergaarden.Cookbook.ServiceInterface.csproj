@@ -94,9 +94,9 @@
       <Project>{0433B79F-D89E-4A37-A39E-D0021B332DEF}</Project>
       <Name>Nykaergaarden.Cookbook.DomainModel</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Cookbook.ServiceModel\Nykaergaarden.Cookbook.ServiceModel.csproj">
+    <ProjectReference Include="..\Cookbook.ServiceModel\Nykaergaarden.Cookbook.Commands.csproj">
       <Project>{6D9D4B08-D3CB-4BA6-9AAA-7613E7DB1C88}</Project>
-      <Name>Nykaergaarden.Cookbook.ServiceModel</Name>
+      <Name>Nykaergaarden.Cookbook.Commands</Name>
     </ProjectReference>
     <ProjectReference Include="..\Nykaergaarden.QUeryModel\Nykaergaarden.QueryModel.csproj">
       <Project>{BB237E96-099B-47C5-8DA2-1A1DC0FD3616}</Project>

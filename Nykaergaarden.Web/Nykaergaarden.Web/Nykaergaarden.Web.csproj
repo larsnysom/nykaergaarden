@@ -207,10 +207,6 @@
     <Folder Include="Views\Recipe\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Audit\Audit.csproj">
-      <Project>{6E265A90-FC5E-4E1B-A836-884F8CF7B475}</Project>
-      <Name>Audit</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Cookbook.Data\Nykaergaarden.Cookbook.DomainModel.csproj">
       <Project>{0433B79F-D89E-4A37-A39E-D0021B332DEF}</Project>
       <Name>Nykaergaarden.Cookbook.DomainModel</Name>
@@ -219,9 +215,9 @@
       <Project>{75d805a7-1ecf-459e-a478-1e3b6e241e34}</Project>
       <Name>Nykaergaarden.Cookbook.ServiceInterface</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Cookbook.ServiceModel\Nykaergaarden.Cookbook.ServiceModel.csproj">
+    <ProjectReference Include="..\..\Cookbook.ServiceModel\Nykaergaarden.Cookbook.Commands.csproj">
       <Project>{6D9D4B08-D3CB-4BA6-9AAA-7613E7DB1C88}</Project>
-      <Name>Nykaergaarden.Cookbook.ServiceModel</Name>
+      <Name>Nykaergaarden.Cookbook.Commands</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Nykaergaarden.QueryInterface\Nykaergaarden.QueryInterface.csproj">
       <Project>{8C8EB721-ED0C-435D-9132-1989D5F0FB7B}</Project>

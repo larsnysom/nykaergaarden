@@ -1,10 +1,6 @@
-﻿using System;
-using System.Web;
-using System.Web.Mvc;
-using Audit;
+﻿using System.Web.Mvc;
 using ServiceStack.WebHost.Endpoints;
 using Funq;
-using Nykaergaarden.Cookbook.DomainModel.CRUD;
 using Nykaergaarden.Cookbook.ServiceInterface;
 using Nykaergaarden.QueryInterface;
 using Nykaergaarden.QueryModel.Handlers;
@@ -36,8 +32,8 @@ namespace Nykaergaarden.Web
             container.Register(c => new IngredientQueryHandler(c.ResolveNamed<IDocumentStore>("Model")));
             container.Register(c => new RecipeQueryHandler(c.ResolveNamed<IDocumentStore>("Model")));
 
-            container.Register(c => new RecipeCrudHandler(c.ResolveNamed<IDocumentStore>("Model")));
-            container.Register(c => new IngredientCrudHandler(c.ResolveNamed<IDocumentStore>("Model")));
+            //container.Register(c => new RecipeCrudHandler(c.ResolveNamed<IDocumentStore>("Model")));
+            //container.Register(c => new IngredientCrudHandler(c.ResolveNamed<IDocumentStore>("Model")));
 
             SetConfig(new EndpointHostConfig
             {
@@ -45,25 +41,6 @@ namespace Nykaergaarden.Web
                 DefaultContentType = ContentType.Json,
                 EnableFeatures = Feature.All,
             });
-
-            // enable audit
-            var logger = Logger.Start("Nykaergaarden.Web");
-            
-            PreRequestFilters.Add((request, response) =>
-            {                
-                logger.LogRequest();
-            });
-
-            RequestFilters.Add((request, response, result) =>
-            {
-                
-            });
-
-            ResponseFilters.Add((request, response, result) =>
-            {
-                logger.LogResponse();
-            });
-
 
             // enable MVC
             ControllerBuilder.Current.SetControllerFactory(new FunqControllerFactory(container));
